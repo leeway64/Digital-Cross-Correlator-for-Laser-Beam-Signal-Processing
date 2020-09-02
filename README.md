@@ -1,5 +1,29 @@
 # Digital-Cross-Correlator-for-Laser-Beam-Signal-Processing
 
+This repository includes the most important work from my senior Capstone project.
+
+I would like to give credit to my teammates Alexander Ha, Muhammad Rezuna, and Sidrick Salcedo, and to our faculty advisor Dr. Wayne Kimura.
+
+
+# Microcontroller setup
+After reviewing several alternatives, the team concluded that using a microcontroller to construct a correlator was the best option.
+
+Microcontrollers, for the most part, are relatively cheap. There is a diverse range of different microcontroller types and models. Using a microcontroller as the primary apparatus for this project also gave the team hands-on experience with programming and using a microcontroller, skills invaluable to every electrical engineer.
+
+
+For those reasons, this project used a microcontroller to perform the cross-correlation.
+
+The TI Tiva, on the other hand, is still relatively powerful at 80 MHz, 32-bits. This was enough processing power to accomplish our needs. Two 12-bit ADCs are also included in the Tiva.
+
+![Tiva microcontroller](https://github.com/leeway64/Digital-Cross-Correlator-for-Laser-Beam-Signal-Processing/blob/master/Hardware%20components/Tiva%20Picture.jpg)
+
+Based on the data gathered, this project utilized the Tiva microcontroller as our primary control unit.
+
+![Final setup](https://github.com/leeway64/Digital-Cross-Correlator-for-Laser-Beam-Signal-Processing/blob/master/Hardware%20components/Digital%20correlator%20system%201.JPG)
+
+The final hardware configuration is shown in Figure 6.2.1. Notice that there is a 50 Ω resistor in parallel across the BNC terminal. Of note is how the Tiva is secured within the chassis box: the underside of the Tiva is connected to female stacking headers. Those headers are secured by L-brackets attached to the box.
+
+
 # Final results
 The digital correlator successfully displayed the average maximum correlation value over several samples. With the analyzing frequency set to 1300 Hz and the number of samples set to 6, the input photodiode signal was varied and 10 trials were taken for each. The SNR was calculated by dividing the average maximum correlation of the 0.5 mV and 20 mV signal by the average maximum correlation without an input signal.
 
