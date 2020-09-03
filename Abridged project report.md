@@ -15,6 +15,18 @@ We stored the data in a 4K memory array. The array size affects the sensitivity 
 
 The final digital correlator circuit is housed in an aluminum enclosure/box.
 
+# Overview of cross-correlation
+Cross-correlation is a mathematical operation that involves multiplying and summing two waveforms that are shifted in time relative to each other. In this case, one waveform is a digitized laser signal, and the other is a reference square wave.
+
+Generally, given a periodic signal and another periodic signal, the maximum cross-correlation value occurs when both waves have the same frequency. So, we are able to find the period/frequency of the target signal by detecting at what frequency the maximum cross-correlation value occurs.
+
+![xcorr vs. time shift](https://github.com/leeway64/Digital-Cross-Correlator-for-Laser-Beam-Signal-Processing/blob/master/Final%20results/xcorr%20vs%20time%20shift.png)
+
+Notice how the maximum cross-correlation value occurs when the time shift is 0.
+
+![xcorr vs. frequency](https://github.com/leeway64/Digital-Cross-Correlator-for-Laser-Beam-Signal-Processing/blob/master/Final%20results/xcorr%20vs%20frequency.png)
+
+Consider that the maximum cross-correlation value occurs if both of the signals have the same frequency (1.3 kHz, in this case).
 
 # Microcontroller setup
 After reviewing several alternatives, the team concluded that using a microcontroller to construct a correlator was the best option.
