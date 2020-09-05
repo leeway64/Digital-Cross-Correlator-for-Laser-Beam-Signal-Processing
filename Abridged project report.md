@@ -44,7 +44,7 @@ Based on the data gathered, this project utilized the Tiva microcontroller as ou
 
 ![Final setup](https://github.com/leeway64/Digital-Cross-Correlator-for-Laser-Beam-Signal-Processing/blob/master/Hardware%20components/Digital%20correlator%20system%201.JPG)
 
-The final hardware configuration is shown in Figure 6.2.1. Notice that there is a 50 Ω resistor in parallel across the BNC terminal. Of note is how the Tiva is secured within the chassis box: the underside of the Tiva is connected to female stacking headers. Those headers are secured by L-brackets attached to the box.
+The final hardware configuration is shown in the figure above. Notice that there is a 50 Ω resistor in parallel across the BNC terminal. Of note is how the Tiva is secured within the chassis box: the underside of the Tiva is connected to female stacking headers. Those headers are secured by L-brackets attached to the box.
 
 
 # Final results
@@ -56,20 +56,20 @@ We first compared the maximum correlation with no input signal to the maximum co
 ![20 mV](https://github.com/leeway64/Digital-Cross-Correlator-for-Laser-Beam-Signal-Processing/blob/master/Final%20results/20%20mV%20input%20results.jpg)
 
 
-Figure 9.1 shows the maximum correlation value along with a plot of the ADC data. Notice that, although one can see the peaks and troughs of the square wave, it is much obscured by noise.
+The above figure shows the maximum correlation value along with a plot of the ADC data. Notice that, although one can see the peaks and troughs of the square wave, it is much obscured by noise.
 
 Then, we compared the maximum correlation with no input signal to the maximum correlation without the high gain amplifier (0.5 mV input signal). The SNR was 1.07, meaning that without the high amplifier, the signal is improved by 7% compared to the noise. In other words, the signal is almost equal to the noise.
 
 ![0.5 mV](https://github.com/leeway64/Digital-Cross-Correlator-for-Laser-Beam-Signal-Processing/blob/master/Final%20results/0.5%20mV%20input%20results.jpg)
 
-Notice how, in Figure 9.2, that a square wave is completely invisible inside the ADC data plot. One cannot see any trace of the square wave.
+Notice how, in the above figure, that a square wave is completely invisible inside the ADC data plot. One cannot see any trace of the square wave.
 
 ![No input](https://github.com/leeway64/Digital-Cross-Correlator-for-Laser-Beam-Signal-Processing/blob/master/Final%20results/No%20input%20results.jpg)
 
-Figure 9.2 is almost indistinguishable from Figure 9.3, which shows the data plot when there is zero input.
+The previous figure is almost indistinguishable from this figure, which shows the data plot when there is zero input.
 
 We can conclude that, with the high gain amplifier, the signal is improved greatly by a factor of 4 compared to the noise. The high gain amplifier ensures that more meaningful data is taken.
 
 ![Strong input](https://github.com/leeway64/Digital-Cross-Correlator-for-Laser-Beam-Signal-Processing/blob/master/Final%20results/Strong%20input%20signal%20results.jpg)
 
-Based on Figure 9.4, we also found that the ADC can digitize negative values, to a certain degree. The analog values less than 0 are digitized to become 0.
+Based on this figure, we also found that the ADC can digitize negative values, to a certain degree. The analog values less than 0 are digitized to become 0.
