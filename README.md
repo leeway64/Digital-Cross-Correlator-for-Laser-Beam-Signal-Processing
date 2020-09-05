@@ -6,7 +6,7 @@ I would like to give credit to my teammates Alexander Ha, Muhammad Rezuna, and S
 
 
 # Project overview
-Certain frequencies of laser light are able to pass through skin, bone, and brain tissue. In analyzing the reflected light from the brain, neuron activity can be analyzed, as neuron activity alters the properties of the reflected light. To enhance laser light reflection, two ultrasound beams of differing frequencies are directed into the brain region of interest. Because the ultrasound beams have different frequencies, the region of interest vibrates at the beat frequency (difference in frequencies) of the ultrasound beams, which "tags" the laser light being reflected from the region of interest with a specific frequency. Tagging the laser light with a specific frequency means that we are able to only detect scatter light from the region of interest.
+Certain frequencies of laser light are able to pass through skin, bone, and brain tissue. In analyzing the reflected light from the brain, neuron activity can be analyzed, as neuron activity alters the properties of the reflected light. To enhance laser light reflection, two ultrasound beams of differing frequencies are directed into the brain region of interest. Because the ultrasound beams have different frequencies, the region of interest vibrates at the beat frequency (difference in frequencies) of the ultrasound beams, which "tags" the laser light being reflected from the region of interest with a specific frequency. Tagging the laser light with a specific frequency means that we are able to  detect scattered light from the region of interest.
 
 The main purpose of the project is to devise a method to find the frequency of the reflected light, after it has been tagged by the ultrasound.
 
